@@ -1,0 +1,158 @@
+/* SETUP */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 2rem;
+}
+
+/* REUSEABLE */
+.links a,
+.des {
+  line-height: 1.55;
+  letter-spacing: 0.5px;
+  color: hsl(236, 13%, 42%);
+}
+a {
+  text-decoration: none;
+}
+
+/* LAYOUT */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr 0.9fr;
+}
+
+/* NAV */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+nav {
+  display: flex;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+/* MAIN CONTENT */
+.a-main {
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  max-width: 1010px;
+  overflow: hidden;
+}
+.a-main img {
+  grid-column: 1 / 3;
+  max-width: 95%;
+  display: block;
+}
+.title {
+  grid-row: 2 / 3;
+  font-size: 4rem;
+  margin: 40px 60px 0 0;
+  font-weight: 800;
+}
+.pre {
+  margin-top: 45px;
+  display: flex;
+  gap: 75px;
+  flex-direction: column;
+  max-width: 450px;
+}
+.read-more {
+  padding: 20px 45px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+}
+.read-more:hover {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+
+/* SIDE CONTENT */
+.a-side {
+  color: hsl(233, 8%, 79%);
+  background-color: hsl(240, 100%, 5%);
+  max-width: 445px;
+  padding: 30px;
+  grid-column: 3 / 4;
+}
+.sub-title {
+  color: hsl(35, 77%, 62%);
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.a-title {
+  margin: 35px 0 10px 0;
+  font-size: 1.5rem;
+}
+.a-link:hover {
+  color: hsl(35, 77%, 62%);
+}
+.a-link {
+  color: hsl(36, 100%, 99%);
+}
+.a-des {
+  margin-bottom: 45px;
+  line-height: 1.55;
+  letter-spacing: 0.5px;
+}
+hr {
+  border-color: hsl(233, 8%, 79%);
+}
+
+/* BOTTOM CONTENT */
+.a-bottom {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+}
+.a-bottom img {
+  max-width: 130px;
+}
+.num {
+  color: hsl(233, 8%, 79%);
+  font-size: 2.5rem;
+  margin-bottom: 17px;
+}
+.a2-title {
+  font-size: 1.35rem;
+  margin-bottom: 15px;
+}
+.a2-title a {
+  color: black;
+}
+.links a:hover,
+.a2-title a:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+/* FOOTER */
+.attribution {
+  margin-top: 3rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
