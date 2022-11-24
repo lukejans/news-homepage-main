@@ -224,3 +224,27 @@ hr {
     gap: 20px;
   }
 }
+@media only screen and (max-width: 550px) {
+  picture,
+  .a-side,
+  .a-bottom,
+  .a-main,
+  .wrapper {
+    max-width: 375px;
+    min-width: 320px;
+  }
+  .a-bottom img {
+    max-width: 125px;
+    aspect-ratio: 1 / 1.25;
+    object-fit: cover;
+  }
+  .title,
+  .num,
+  .sub-title {
+    font-size: 2rem;
+  }
+  .a-link,
+  .a2-title {
+    font-size: 1.15rem;
+  }
+}
