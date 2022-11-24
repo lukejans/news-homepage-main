@@ -159,6 +159,7 @@ hr {
   color: hsl(228, 45%, 44%);
 }
 
+/* MEDIA QUERIES */
 @media only screen and (max-width: 1250px) {
   .a-main {
     grid-column: 1 / 4;
@@ -179,7 +180,7 @@ hr {
     grid-column: 1 / 4;
   }
 }
-@media only screen and (max-width: 665px) {
+@media only screen and (max-width: 875px) {
   main {
     grid-template-columns: 1fr;
   }
@@ -189,15 +190,33 @@ hr {
     min-width: 375px;
   }
   .a-main img {
-    max-width: 650px;
-    min-width: 375px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    min-width: 100%;
   }
   body {
     font-size: 1rem;
   }
   .wrapper {
-    min-width: none;
+    min-width: 375px;
+  }
+  .pre {
+    gap: 50px;
+    margin: 30px 0 30px 0;
+  }
+  .sub-title,
+  .title {
+    font-size: 2.75rem;
+  }
+  .a2-title,
+  .a-title {
+    font-size: 1.35rem;
+  }
+  .read-more {
+    font-size: 0.85rem;
+    padding: 15px 30px;
+  }
+  .links {
+    gap: 20px;
   }
 }
+
+@media only screen and (max-width: );
