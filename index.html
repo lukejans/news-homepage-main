@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Inter:400,700,800" />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
@@ -23,16 +24,28 @@
           src="./assets/images/logo.svg"
           alt="Logo"
           aria-hidden="true" />
-        <nav>
-          <ul class="links">
-            <li><a href="">Home</a></li>
-            <li><a href="">New</a></li>
-            <li><a href="">Popular</a></li>
-            <li><a href="">Trending</a></li>
-            <li><a href="">Categories</a></li>
+        <nav class="main-nav">
+          <ul class="links main-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
           </ul>
         </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
       </header>
+      <nav class="mobile-nav">
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
 
       <main class="container">
         <section class="a-main">
@@ -50,7 +63,7 @@
               it really fulfilling its promise?
             </p>
             <p>
-              <a href=""><span class="read-more">READ MORE</span></a>
+              <a href="#"><span class="read-more">READ MORE</span></a>
             </p>
           </div>
         </section>
@@ -93,7 +106,7 @@
             class="img-bottom" />
           <div class="content">
             <h2 class="num">01</h2>
-            <h3 class="a2-title"><a href="">Reviving Retro PCs</a></h3>
+            <h3 class="a2-title"><a href="#">Reviving Retro PCs</a></h3>
             <p class="des">
               What happens when old PCs are given modern upgrades?
             </p>
@@ -107,7 +120,7 @@
             class="img-bottom" />
           <div class="content">
             <h2 class="num">02</h2>
-            <h3 class="a2-title"><a href="">Top 10 Laptops of 2022</a></h3>
+            <h3 class="a2-title"><a href="#">Top 10 Laptops of 2022</a></h3>
             <p class="des">Our best picks for various needs and budgets.</p>
           </div>
         </article>
@@ -119,7 +132,7 @@
             class="img-bottom" />
           <div class="content">
             <h2 class="num">03</h2>
-            <h3 class="a2-title"><a href="">The Growth of Gaming</a></h3>
+            <h3 class="a2-title"><a href="#">The Growth of Gaming</a></h3>
             <p class="des">How the pandemic has sparked fresh opportunities.</p>
           </div>
         </article>
