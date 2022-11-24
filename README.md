@@ -2,8 +2,8 @@
 
 ### Links
 
-- Solution URL: [repo](https://github.com/lukejans/interactive-rating-component)
-- Live Site URL: [github pages](https://lukejans.github.io/interactive-rating-component/)
+- Solution URL: [repo](https://github.com/lukejans/news-homepage-main)
+- Live Site URL: [github pages](https://lukejans.github.io/news-homepage-main/)
 
 ## Author
 
